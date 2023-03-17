@@ -8,5 +8,6 @@ namespace Take_Note
     {
         public IEnumerable<Budget> GetAllBudgets();
         public Budget GetBudget(int id);
+        public void UpdateBudget(Budget budget);
     }
 }

@@ -23,5 +23,10 @@ namespace Take_Note
             return _conn.QuerySingle<Budget>("SELECT * FROM Budget WHERE ID = @id", new { id = id });
         }
 
+        public void UpdateBudget(Budget budget)
+        {
+            _conn.Execute("UPDATE Budget SET Bill = @bill, Amount = @amount WHERE ID = @id",
+              new { bill = budget.Bill, amount = budget.Amount, id = budget.ID });
+        }
     }
 }
