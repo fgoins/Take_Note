@@ -56,5 +56,11 @@ namespace Take_Note.Controllers
             repo.InsertBudget(budgetToInsert);
             return RedirectToAction("Index");
         }
+
+        public IActionResult DeleteBudget(Budget budget)
+        {
+            repo.DeleteBudget(budget);
+            return RedirectToAction("Index");
+        }
     }
 }
