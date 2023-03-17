@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Budget>
+
+<h2>Budget</h2>
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Bill</th>
+        <th>Amount</th>
+        <th>DueDate</th>
+    </tr>
+
+    @foreach (var Budget in @Model)
+    {
+        <tr>
+            <td>@Budget.ID</td>
+            <td>@Budget.Bill</td>
+            <td>@Budget.Amount</td>
+            <td>@Budget.DueDate</td>
+        </tr>
+    }
+
+</table>

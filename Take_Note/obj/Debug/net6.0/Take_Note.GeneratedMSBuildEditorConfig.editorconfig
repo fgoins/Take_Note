@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Faithtorian\Desktop\Repos\Take_Note\Take_Note
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Budget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVkZ2V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
