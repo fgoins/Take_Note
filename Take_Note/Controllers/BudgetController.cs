@@ -21,5 +21,11 @@ namespace Take_Note.Controllers
             var Budget = repo.GetAllBudgets();
             return View(Budget);
         }
+
+        public IActionResult ViewBudget(int id)
+        {
+            var budget = repo.GetBudget(id);
+            return View(budget);
+        }
     }
 }

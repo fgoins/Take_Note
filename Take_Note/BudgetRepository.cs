@@ -17,5 +17,11 @@ namespace Take_Note
         {
             return _conn.Query<Budget>("Select * From Budget");
         }
+
+        public Budget GetBudget(int id)
+        {
+            return _conn.QuerySingle<Budget>("SELECT * FROM Budget WHERE ID = @id", new { id = id });
+        }
+
     }
 }

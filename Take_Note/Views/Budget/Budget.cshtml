@@ -12,7 +12,7 @@
     @foreach (var Budget in @Model)
     {
         <tr>
-            <td>@Budget.ID</td>
+            <td><a href=/Budget/ViewBudget/@Budget.ID>@Budget.ID</a></td>
             <td>@Budget.Bill</td>
             <td>@Budget.Amount</td>
             <td>@Budget.DueDate</td>

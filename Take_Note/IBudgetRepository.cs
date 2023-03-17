@@ -7,5 +7,6 @@ namespace Take_Note
     public interface IBudgetRepository
     {
         public IEnumerable<Budget> GetAllBudgets();
+        public Budget GetBudget(int id);
     }
 }
