@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Take_Note.props" />
+</Project>
