@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using Microsoft.VisualBasic;
 using System;
 using System.Data;
 using Take_Note.Models;
@@ -28,5 +29,24 @@ namespace Take_Note
             _conn.Execute("UPDATE Budget SET Bill = @bill, Amount = @amount WHERE ID = @id",
               new { bill = budget.Bill, amount = budget.Amount, id = budget.ID });
         }
+
+        public void InsertBudget(Budget budgetToInsert)
+        {
+            _conn.Execute("INSERT INTO Budget (Bill, Amount, DudDate) VALUES (@bill, @amount, @duedate);",
+            new { name = budgetToInsert.Bill, amount = budgetToInsert.Amount, dueDate= budgetToInsert.DueDate });
+        }
+        public IEnumerable<BillType> GetBill()
+        {
+            return _conn.Query<BillType>("SELECT * FROM Bill;");
+
+        }
+        public Budget AssignBudget()
+        {
+            var billList = GetBill();
+            var budget = new Budget();
+            budget.billTypes = billList;
+            return budget;
+        }
+
     }
 }

@@ -45,5 +45,16 @@ namespace Take_Note.Controllers
 
             return RedirectToAction("ViewBudget", new { id = budget.ID });
         }
+        public IActionResult InsertBudget()
+        {
+            var bill = repo.AssignBudget();
+            return View(bill);
+        }
+        
+        public IActionResult InsertBudgetToDatabase(Budget budgetToInsert)
+        {
+            repo.InsertBudget(budgetToInsert);
+            return RedirectToAction("Index");
+        }
     }
 }
