@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<IDbConnection>((s) =>
 {
-    IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("take_note"));
+    IDbConnection conn = new MySqlConnection(builder.Configuration.GetConnectionString("Take_Note"));
     conn.Open();
     return conn;
 });

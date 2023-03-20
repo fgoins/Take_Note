@@ -19,8 +19,8 @@ namespace Take_Note.Controllers
         //Get Controller
         public IActionResult Index()
         {
-            var Budget = repo.GetAllBudgets();
-            return View(Budget);
+            var budgets= repo.GetAllBudgets();
+            return View(budgets);
         }
 
         public IActionResult ViewBudget(int id)

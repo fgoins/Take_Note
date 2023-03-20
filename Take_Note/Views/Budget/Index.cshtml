@@ -14,13 +14,13 @@
         <th>DueDate</th>
     </tr>
 
-    @foreach (var Budget in @Model)
+    @foreach (var budget in @Model)
     {
         <tr>
-            <td><a href=/Budget/ViewBudget/@Budget.ID>@Budget.ID</a></td>
-            <td>@Budget.Bill</td>
-            <td>@Budget.Amount</td>
-            <td>@Budget.DueDate</td>
+            <td><a href=/Budget/ViewBudget/@budget.ID>@budget.ID</a></td>
+            <td>@budget.Bill</td>
+            <td>@budget.Amount</td>
+            <td>@budget.DueDate</td>
         </tr>
     }
 

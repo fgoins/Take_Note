@@ -2,7 +2,11 @@
 using Microsoft.VisualBasic;
 using System;
 using System.Data;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Take_Note.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Take_Note
 {
@@ -16,7 +20,7 @@ namespace Take_Note
         }
         public IEnumerable<Budget> GetAllBudgets()
         {
-            return _conn.Query<Budget>("Select * From Budget");
+            return _conn.Query<Budget>("SELECT * FROM Budget;");
         }
 
         public Budget GetBudget(int id)
