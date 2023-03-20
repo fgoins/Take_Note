@@ -39,14 +39,14 @@ namespace Take_Note
             _conn.Execute("INSERT INTO Budget (Bill, Amount, DudDate) VALUES (@bill, @amount, @duedate);",
             new { name = budgetToInsert.Bill, amount = budgetToInsert.Amount, dueDate= budgetToInsert.DueDate });
         }
-        public IEnumerable<BillType> GetBill()
+        public IEnumerable<BillType> GetbillTypes()
         {
             return _conn.Query<BillType>("SELECT * FROM Bill;");
 
         }
         public Budget AssignBudget()
         {
-            var billList = GetBill();
+            var billList = GetbillTypes();
             var budget = new Budget();
             budget.billTypes = billList;
             return budget;

@@ -10,7 +10,7 @@ namespace Take_Note
         public Budget GetBudget(int id);
         public void UpdateBudget(Budget budget);
         public void InsertBudget(Budget budgetToInsert);
-        public IEnumerable<BillType> GetBill();
+        public IEnumerable<BillType> GetbillTypes();
         public Budget AssignBudget();
         public void DeleteBudget(Budget budget);
     }
