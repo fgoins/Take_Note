@@ -36,12 +36,12 @@ namespace Take_Note
 
         public void InsertBudget(Budget budgetToInsert)
         {
-            _conn.Execute("INSERT INTO Budget (Bill, Amount, DudDate) VALUES (@bill, @amount, @duedate);",
-            new { name = budgetToInsert.Bill, amount = budgetToInsert.Amount, dueDate= budgetToInsert.DueDate });
+            _conn.Execute("INSERT INTO Budget (Bill, Amount, DueDate) VALUES (@bill, @amount, @duedate);",
+            new { bill = budgetToInsert.Bill, amount = budgetToInsert.Amount, duedate= budgetToInsert.DueDate});
         }
         public IEnumerable<BillType> GetbillTypes()
         {
-            return _conn.Query<BillType>("SELECT * FROM Bill;");
+            return _conn.Query<BillType>("SELECT * FROM Budget;");
 
         }
         public Budget AssignBudget()

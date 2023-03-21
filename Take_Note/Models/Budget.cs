@@ -12,6 +12,7 @@ namespace Take_Note.Models
         public decimal Amount { get; set; }
         public  string DueDate { get; set; }
         public IEnumerable<BillType> billTypes { get; set; }
+        public List<string> Dates { get; set; } = new List<string> {"1st", "2nd", "3rd" };
 
     }
 }

@@ -13,11 +13,12 @@
     <input type="number" step="0.01" name="Amount" class="form-control" />
 
     <div class="form-group">
-        <label for="">Select a Bill</label>
-        <select class="form-control" name="Bill" value="">
-            @foreach (var bill in Model.billTypes)
+        <label for="">Select a Due Date</label>
+        <select class="form-control" name="DueDate" value="">
+            @for (int i = 0; i  < Model.Dates.Count; i++)
             {
-                <option value="@bill.ID">@bill.ID @bill.Bill</option>
+                <option value="@Model.Dates[i]">@Model.Dates[i]</option>
+               @* <option value="@date.">@bill.ID @bill.Bill</option>*@
             }
         </select>
     </div>

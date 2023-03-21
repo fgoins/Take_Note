@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVkZ2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Budget/InsertBudget.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVkZ2V0XEluc2VydEJ1ZGdldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Budget/UpdateBudget.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVkZ2V0XFVwZGF0ZUJ1ZGdldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/InsertBudget.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zZXJ0QnVkZ2V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Faithtorian/Desktop/Repos/Take_Note/Take_Note/Views/Shared/Error.cshtml]
