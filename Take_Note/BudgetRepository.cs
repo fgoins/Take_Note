@@ -54,9 +54,7 @@ namespace Take_Note
 
         public void DeleteBudget(Budget budget)
         {
-            _conn.Execute("DELETE FROM Bill WHERE ID = @id;", new { id = budget.ID });
-            _conn.Execute("DELETE FROM Amount WHERE ID = @id;", new { id = budget.ID });
-            _conn.Execute("DELETE FROM DueDate WHERE ID = @id;", new { id = budget.ID });
+            _conn.Execute("DELETE FROM Budget WHERE ID = @id;", new { id = budget.ID });
         }
     }
 }
