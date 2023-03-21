@@ -30,8 +30,8 @@ namespace Take_Note
 
         public void UpdateBudget(Budget budget)
         {
-            _conn.Execute("UPDATE Budget SET Bill = @bill, Amount = @amount WHERE ID = @id",
-              new { bill = budget.Bill, amount = budget.Amount, id = budget.ID });
+            _conn.Execute("UPDATE Budget SET Bill = @bill, Amount = @amount, DueDate =@duedate WHERE ID = @id;",
+              new { bill = budget.Bill, amount = budget.Amount, duedate = budget.DueDate, id = budget.ID });
         }
 
         public void InsertBudget(Budget budgetToInsert)
