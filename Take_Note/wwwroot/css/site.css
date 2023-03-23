@@ -1,5 +1,13 @@
+/*.background_image {
+    background-image: url('../dpd.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}*/
+
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {

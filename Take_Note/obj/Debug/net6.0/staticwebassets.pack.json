@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Take_Note.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\DPD.jpg",
+      "PackagePath": "staticwebassets\\DPD.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\budget.jpg",
+      "PackagePath": "staticwebassets\\budget.jpg"
+    },
+    {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\dreams.jpg",
+      "PackagePath": "staticwebassets\\dreams.jpg"
     },
     {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\favicon.ico",
