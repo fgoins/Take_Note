@@ -1,23 +1,45 @@
 .background {
-    background-image: url('../dpd.jpg');
-    border: 1px;
+    background-image: url('../dreams.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /*border: 1px;*/
 }
 
 body {   
     
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  
 }  
 
 h1 {
-    color: blue;
+    color: goldenrod;
+    
 }
 
-.test {
-    border: 1px;
-    border-color: red !important;
+.background2 {
+    background-image: url('../budget.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
+h2 {
+    color: goldenrod;
+}
+
+.databaseFont{
+    color:navajowhite;
+}
+
+.homebackgroundcolor {
+    background-color: black;
+}
+
+/*.test {*/
+   /* border: 1px;
+    border-color: red !important;*/
+/*}*/
+
+
 /*html {
     font-size: 14px;
 }
