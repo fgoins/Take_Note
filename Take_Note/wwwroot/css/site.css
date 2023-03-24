@@ -1,5 +1,25 @@
-html {
-  font-size: 14px;
+.background {
+    background-image: url('../dpd.jpg');
+    border: 1px;
+}
+
+body {   
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}  
+
+h1 {
+    color: blue;
+}
+
+.test {
+    border: 1px;
+    border-color: red !important;
+}
+/*html {
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -15,4 +35,4 @@ html {
 
 body {
   margin-bottom: 60px;
-}
+}*/

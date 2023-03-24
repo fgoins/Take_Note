@@ -1,0 +1,27 @@
+﻿@model Budget
+
+<h2>Create a New Budget</h2>
+
+@using (Html.BeginForm("InsertBudgetToDatabase", "Budget", "Post"))
+{
+    <input asp-for="ID" type="hidden" value="" />
+
+    <label asp-for="Bill" class="control-label">Bill</label>
+    <input type="text" name="Bill" class="form-control" value="" />
+
+    <label asp-for="Amount" class="control-label">Amount</label>
+    <input type="number" step="0.01" name="Amount" class="form-control" />
+
+    <div class="form-group">
+        <label for="">Select a Due Date</label>
+        <select class="form-control" name="DueDate" value="">
+            @for (int i = 0; i  < Model.Dates.Count; i++)
+            {
+                <option value="@Model.Dates[i]">@Model.Dates[i]</option>
+               @* <option value="@date.">@bill.ID @bill.Bill</option>*@
+            }
+        </select>
+    </div>
+
+    <input type="submit" value="Create Budget" class="btn btn-primary" />
+}

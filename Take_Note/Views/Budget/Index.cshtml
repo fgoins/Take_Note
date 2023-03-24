@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Budget>
+
+<h2>Budget</h2>
+
+<div style="display: block">
+    <a href="/Budget/InsertBudget/">Create a New Budget</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Bill</th>
+        <th>Amount</th>
+        <th>DueDate</th>
+    </tr>
+
+    @foreach (var budget in @Model)
+    {
+        <tr>
+            <td><a href=/Budget/ViewBudget/@budget.ID>@budget.ID</a></td>
+            <td>@budget.Bill</td>
+            <td>@budget.Amount</td>
+            <td>@budget.DueDate</td>
+        </tr>
+    }
+
+</table>

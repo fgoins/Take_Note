@@ -1,0 +1,31 @@
+﻿@model Budget
+
+<h3>@Model.Bill Information</h3>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>Bill</th>
+        <th>Amount</th>
+        <th>DueDate</th>
+    </tr>
+    <tr>
+        <td>@Model.ID</td>
+        <td>@Model.Bill</td>
+        <td>@Model.Amount</td>
+        <td>@Model.DueDate</td>
+    </tr>
+</table>
+
+<div style="display: block">
+    <a href="/Budget/UpdateBudget/@Model.ID">Update this Bill</a>
+</div>
+
+<div style="display: block">
+
+    @using (Html.BeginForm("DeleteBudget", "Budget", "Post"))
+    {
+        <input type="hidden" asp-for="ID" value="@Model.ID" />
+        <input type="submit" onclick="return confirm('Are you sure?')" value="Delete this Bill" />
+    }
+</div>
