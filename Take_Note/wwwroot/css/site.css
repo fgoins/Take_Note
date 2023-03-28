@@ -37,6 +37,16 @@ h2 {
     background-color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.backgroundinsert {
+    background-image: url('../lib/clouds.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.budgetFont {
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 /*.test {*/
    /* border: 1px;

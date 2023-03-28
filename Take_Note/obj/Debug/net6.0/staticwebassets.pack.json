@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Clouds.jpg",
+      "PackagePath": "staticwebassets\\lib\\Clouds.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\MARBLE.jpg",
+      "PackagePath": "staticwebassets\\lib\\MARBLE.jpg"
+    },
+    {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

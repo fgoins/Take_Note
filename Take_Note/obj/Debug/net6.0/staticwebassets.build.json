@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "69X24digQh5tEFb3xjX7j2Jv0yLck+XcD1jaSJDXbjI=",
+  "Hash": "fOPgnT8dewZsNKm7jQRcWRfq4Hxb1NZCaibkzD8879I=",
   "Source": "Take_Note",
   "BasePath": "_content/Take_Note",
   "Mode": "Default",
@@ -918,6 +918,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Clouds.jpg",
+      "SourceId": "Take_Note",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
+      "BasePath": "_content/Take_Note",
+      "RelativePath": "lib/Clouds.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Clouds.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Take_Note",
       "SourceType": "Discovered",
@@ -1120,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\MARBLE.jpg",
+      "SourceId": "Take_Note",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
+      "BasePath": "_content/Take_Note",
+      "RelativePath": "lib/MARBLE.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\MARBLE.jpg"
     }
   ]
 }
