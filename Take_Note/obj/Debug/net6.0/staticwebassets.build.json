@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fOPgnT8dewZsNKm7jQRcWRfq4Hxb1NZCaibkzD8879I=",
+  "Hash": "Jjx+V2RMWwp2xZbnL6+VHxZOz3G8gRvgzTHuzu4yzTI=",
   "Source": "Take_Note",
   "BasePath": "_content/Take_Note",
   "Mode": "Default",
@@ -100,23 +100,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\DPD.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\dreams.jpg",
-      "SourceId": "Take_Note",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
-      "BasePath": "_content/Take_Note",
-      "RelativePath": "dreams.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\dreams.jpg"
     },
     {
       "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\favicon.ico",

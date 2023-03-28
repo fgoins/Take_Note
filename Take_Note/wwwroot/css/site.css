@@ -3,13 +3,8 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    /*border: 1px;*/
+    border: 1px;
 }
-
-body {   
-    
-  
-}  
 
 h1 {
     color: goldenrod;
@@ -18,10 +13,11 @@ h1 {
 }
 
 .background2 {
-    background-image: url('../budget.jpg');
+     background-image: url('../budget.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+   
 }
 h2 {
     color: goldenrod;
@@ -38,15 +34,17 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .backgroundinsert {
-    background-image: url('../lib/clouds.jpg');
-    background-size: cover;
+    background-image: url('../lib/groot.jpg');
+  /*  background-size: cover;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center;*/
 }
 .budgetFont {
     color: goldenrod;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Bold', sans-serif;
 }
+
+
 
 /*.test {*/
    /* border: 1px;

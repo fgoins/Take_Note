@@ -1,8 +1,10 @@
 ﻿@model Budget
-
-<h3>@Model.Bill Information</h3>
-
-<table class="table">
+<body class="background2">
+</body>
+<div class=" budgetFont">
+<h3>@Model.Bill Information </h3>
+</div>
+<table class="table budgetFont">
     <tr>
         <th>ID</th>
         <th>Bill</th>
@@ -17,11 +19,11 @@
     </tr>
 </table>
 
-<div style="display: block">
+<div style="display: block budgetFont">
     <a href="/Budget/UpdateBudget/@Model.ID">Update this Bill</a>
 </div>
 
-<div style="display: block">
+<div style="display: block budgetFont">
 
     @using (Html.BeginForm("DeleteBudget", "Budget", "Post"))
     {
