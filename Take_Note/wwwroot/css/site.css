@@ -1,11 +1,11 @@
-.background {
+/*.background {
     background-image: url('../dreams.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     border: 1px;
 }
-
+*/
 h1 {
     color: goldenrod;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -20,17 +20,18 @@ h1 {
    
 }
 h2 {
-    color: goldenrod;
+    color: steelblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .databaseFont {
-    color: whitesmoke;
+    color: goldenrod;
     font-family: Impact, Haettenschweiler, 'Arial', sans-serif;
 }
 
 .homebackgroundcolor {
     background-color: black;
+ /*   background-image: url('../dpd.jpg');*/
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .backgroundinsert {

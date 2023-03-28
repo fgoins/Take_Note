@@ -25,12 +25,12 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Clouds.jpg",
-      "PackagePath": "staticwebassets\\lib\\Clouds.jpg"
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Bill Gates.jpg",
+      "PackagePath": "staticwebassets\\lib\\Bill Gates.jpg"
     },
     {
-      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\MARBLE.jpg",
-      "PackagePath": "staticwebassets\\lib\\MARBLE.jpg"
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Clouds.jpg",
+      "PackagePath": "staticwebassets\\lib\\Clouds.jpg"
     },
     {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -211,6 +211,14 @@
     {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\butterfly.jpg",
+      "PackagePath": "staticwebassets\\lib\\butterfly.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\groot.jpg",
+      "PackagePath": "staticwebassets\\lib\\groot.jpg"
     },
     {
       "Id": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",

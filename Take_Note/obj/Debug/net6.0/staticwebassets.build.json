@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Jjx+V2RMWwp2xZbnL6+VHxZOz3G8gRvgzTHuzu4yzTI=",
+  "Hash": "Aas6rLrHGMTQNyQs1hadBcdu531zDN8qSTEul0GxrRQ=",
   "Source": "Take_Note",
   "BasePath": "_content/Take_Note",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Bill Gates.jpg",
+      "SourceId": "Take_Note",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
+      "BasePath": "_content/Take_Note",
+      "RelativePath": "lib/Bill Gates.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\Bill Gates.jpg"
     },
     {
       "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -901,6 +918,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\butterfly.jpg",
+      "SourceId": "Take_Note",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
+      "BasePath": "_content/Take_Note",
+      "RelativePath": "lib/butterfly.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\butterfly.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\Clouds.jpg",
       "SourceId": "Take_Note",
       "SourceType": "Discovered",
@@ -916,6 +950,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\Clouds.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\groot.jpg",
+      "SourceId": "Take_Note",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
+      "BasePath": "_content/Take_Note",
+      "RelativePath": "lib/groot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\groot.jpg"
     },
     {
       "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\jquery\\dist\\jquery.js",
@@ -1120,23 +1171,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\lib\\MARBLE.jpg",
-      "SourceId": "Take_Note",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Faithtorian\\Desktop\\Repos\\Take_Note\\Take_Note\\wwwroot\\",
-      "BasePath": "_content/Take_Note",
-      "RelativePath": "lib/MARBLE.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\MARBLE.jpg"
     }
   ]
 }
